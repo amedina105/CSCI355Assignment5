@@ -94,7 +94,10 @@
     <p id="Location"></p>
     <script>
         document.getElementById("Location").innerHTML =
-        "The full URL of this page is:<br>" + window.location.href;
+        "The full URL of this page is: " + window.location.href + "<br>" +
+        "The hostname of this page is: " + window.location.hostname + "<br>" +
+        "The pathname of this page is: " + window.location.pathname + "<br>" +
+        "The protocol of this page is: " + window.location.protocol + "<br>";
     </script>
 </div>
 
